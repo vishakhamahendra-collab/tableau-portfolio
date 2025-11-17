@@ -1,0 +1,74 @@
+# 🌍 Global CO₂ Emissions vs GDP vs Aging Population (65+) — Data Visualization
+
+## 📌 Project Overview
+This project visualizes the relationship between **CO₂ emissions**, **GDP**, and **the aging population (65+)** across the world from **1960 to 2023**.  
+The goal is to understand how demographic transitions and economic growth correlate with environmental impact.
+
+The dashboard is built in **Tableau** and published on **Tableau Public**.
+
+---
+
+## 🎯 Objectives
+The visualization aims to answer key global questions:
+
+- How have CO₂ emissions evolved as countries developed economically?
+- Do richer nations emit more or less CO₂ per capita?
+- How does an aging population relate to economic and environmental trends?
+- Which countries show strong sustainability improvements?
+- How do developing vs developed regions compare over time?
+
+---
+
+## 📊 Key Features of the Dashboard
+
+### **1. Bubble Chart: CO₂ vs GDP**
+- Bubble size represents **population aged 65+ (%)**
+- Color-coded by **continent / region**
+- Allows comparison of development trajectories across countries
+
+### **2. Time Slider (1960–2023)**
+- Animate changes over time  
+- See which countries improved emissions relative to their GDP  
+- Observe aging trends globally
+
+### **3. Filters**
+- Country  
+- Continent  
+- Income group  
+- Year  
+- Emission brackets & GDP ranges  
+
+### **4. Tooltips**
+- Displays all three metrics:
+  - CO₂ emissions (metric tons per capita or total)
+  - GDP (current USD or PPP)
+  - Percentage of population age 65+
+
+---
+
+## 🗂️ Dataset
+
+This dashboard uses publicly available global datasets:
+
+- **World Indicator – CO₂ emissions (EN.ATM.CO2E.PC / EN.ATM.CO2E.KT)**
+- **World Indicator – GDP (NY.GDP.MKTP.CD)**
+- **World Indicator – Population ages 65+ (% of total)**
+
+The combined dataset includes:
+
+- **Countries:** ~200  
+- **Years:** 1960–2023  
+- **Indicators:** 3 main metrics + geographic classifications
+
+---
+
+## 🛠️ Tools & Technologies
+- **Tableau Desktop** — dashboard creation  
+- **Tableau Public** — hosting  
+- **Python/Pandas** (optional) — cleaning & merging World Bank data  
+- **GitHub** — portfolio version control  
+
+---
+
+## 📥 Repository Structure
+
